@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    org.springframework.web.client.RestTemplate: DEBUG
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 358534030008-utlil32air3iejad8rhd0jh6b4v0cc7j.apps.googleusercontent.com
+            client-secret: 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
